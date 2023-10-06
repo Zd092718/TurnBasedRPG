@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://bxcn3367xk8ws"]
+
+[ext_resource type="Texture2D" uid="uid://x4px48s3v4y5" path="res://Sprites/Dragon.png" id="1_m863q"]
+
+[node name="BattleScene" type="Node2D"]
+
+[node name="Character" type="Node2D" parent="."]
+
+[node name="Sprite" type="Sprite2D" parent="Character"]
+texture = ExtResource("1_m863q")
